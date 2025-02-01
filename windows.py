@@ -15,7 +15,7 @@ class Master_Windows:
     menu_bar = Menu_Bar(windows)
 
     sv = tk.StringVar()
-    sv="Bienvenidos"
+    sv="Bienvenido"
     insert_name=ttk.Entry(windows)
     welcome = ttk.Label()
     welcome.pack()
